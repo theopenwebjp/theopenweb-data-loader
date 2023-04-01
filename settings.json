@@ -1,0 +1,13 @@
+{
+    "defaultPreset": "data",
+    "extensions": {
+        ".d.ts": "types",
+        ".ts": "types",
+        ".schema.json": "schema"
+    },
+    "presets": {
+        "types": "types/[FILENAME][EXTENSION]",
+        "schema": "schema/[FILENAME][EXTENSION]",
+        "data": "data/[FILENAME][EXTENSION]"
+    }
+}

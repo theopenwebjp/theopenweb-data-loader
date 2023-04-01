@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "allowJs": true,
+        "checkJs": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "noEmit": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "**/*.js"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

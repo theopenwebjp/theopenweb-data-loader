@@ -1,0 +1,25 @@
+{
+  "name": "theopenweb-data-loader",
+  "version": "1.0.0",
+  "bin": "./cli.js",
+  "description": "Loads data into projects from remote URLs for easy usage. For example, load TypeScript types from remote URL or GitHub, etc.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "data",
+    "typescript",
+    "types",
+    "loader",
+    "remote",
+    "url"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1"
+  }
+}
