@@ -1,5 +1,5 @@
 {
-  "name": "theopenweb-data-loader",
+  "name": "@theopenweb/theopenweb-data-loader",
   "version": "1.0.0",
   "bin": "./cli.js",
   "description": "Loads data into projects from remote URLs for easy usage. For example, load TypeScript types from remote URL or GitHub, etc.",
@@ -13,7 +13,19 @@
     "remote",
     "url"
   ],
-  "author": "",
+  "author": "The Open Web <noreply@theopenweb.jp> (https://theopenweb.jp)",
+  "contributors": [
+    "Damien Golding <noreply@damiengolding.com> (https://damiengolding.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theopenwebjp/theopenweb-data-loader.git"
+  },
+  "homepage": "https://theopenweb.info",
+  "bugs": {
+    "url": "https://github.com/theopenwebjp/theopenweb-data-loader/issues"
+  },
+  "private": false,
   "license": "MIT",
   "dependencies": {
     "commander": "^10.0.0",

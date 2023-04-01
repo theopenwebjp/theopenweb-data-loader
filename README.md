@@ -1,23 +1,35 @@
 # Description
 
+Package for loading data(including types) to local project.
+
+## Installation
+
+```bash
+npm install @theopenweb/theopenweb-data-loader
+```
+
 ## Usage
 
-// As a normal script: package.json
+```bash
+theopenweb-data-loader download [URL]
+```
+
+As a normal script: package.json
 
 ```json
 {
     "scripts": {
-        "update-types": "theopenweb-data-loader download .....d.ts"
+        "update-types": "theopenweb-data-loader download https://raw.githubusercontent.com/theopenwebjp/theopenweb-public-contributions/master/contributions/manual-typescript-types/twilio.ts"
     }
 }
 ```
 
-// As a one-time after installation script: package.json
+As a one-time after-installation script: package.json
 
 ```json
 {
     "scripts": {
-        "postinstall": "theopenweb-data-loader download .....d.ts"
+        "postinstall": "theopenweb-data-loader download https://raw.githubusercontent.com/theopenwebjp/theopenweb-public-contributions/master/contributions/manual-typescript-types/twilio.ts"
     }
 }
 ```
